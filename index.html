@@ -45,6 +45,9 @@
     function insertText() {
       var sc = document.getElementById("sc");
       sc.innerHTML = "You are visitor number " + sc.innerHTML;
+      var sp = document.createElement("span");
+      sp.innerHTML = " to the current version of this site."
+      sc.appendChild(sp);
     }
     document.write("<script type='text/javascript' src='" +
     scJsHost+
