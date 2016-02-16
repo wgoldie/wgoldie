@@ -34,7 +34,7 @@
       I'm also <a href="https://github.com/wgoldie/colorwalk">currently developing</a> <a href="http://willgoldie.me/colorwalk/">ColorWalk</a>, a new way to visualize/cognize/generate color transitions and gradients.
     </p>
     <!-- statcounter -->
-    <p id="sc">
+    <p><span id="sa"></span><span id="sc"></span><span id="sb"></span></p>
     <script type="text/javascript">
     var sc_project=10795939; 
     var sc_invisible=0; 
@@ -43,11 +43,10 @@
     var scJsHost = (("https:" == document.location.protocol) ?
     "https://secure." : "http://www.");
     function insertText() {
-      var sc = document.getElementById("sc");
-      sc.innerHTML = "You are visitor number " + sc.innerHTML;
-      var sp = document.createElement("span");
-      sp.innerHTML = " to the current version of this site."
-      sc.appendChild(sp);
+      var sa = document.getElementById("sa");
+      sc.innerHTML = "You are visitor number ";
+      var sb = document.getElementById("sb");
+      sb.innerHTML = " to the current version of this site."
     }
     document.write("<script type='text/javascript' src='" +
     scJsHost+
