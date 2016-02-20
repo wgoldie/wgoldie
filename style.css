@@ -10,21 +10,28 @@ body {
 	min-height: 100%;
 }
 
-a {
-	color: inherit;
+
+a, a:visited {
+    text-decoration: none;
+    color: #0000ff;
 }
+
 
 h1 {
 	font-family: "acta-display", serif;		
 	font-size: 5vh;
 	margin: 5vmin auto;
 	line-height: 40%;
-	max-width: 56vmin;
+	max-width: 86vmin;
 }
 
 p, div {
 	font-family: "Courier", monospace;
 	font-size: 1.5vh;
 	max-width: 80vmin;
-	margin: 1vmin auto;
+	margin: 2vmin auto;
+}
+
+li {
+    margin: 1vmin auto;
 }
