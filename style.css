@@ -24,7 +24,7 @@ h1 {
 
 p, div {
 	font-family: "Courier", monospace;
-	font-size: 1vh;
+	font-size: 1.5vh;
 	max-width: 50vmin;
-	margin: 5vmin auto;
+	margin: 1vmin auto;
 }
