@@ -15,6 +15,7 @@ a {
 }
 
 h1 {
+	font-family: "acta-display", serif;		
 	font-size: 10vh;
 	margin: 5vmin auto;
 	line-height: 80%;
