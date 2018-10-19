@@ -35,3 +35,7 @@ p, div {
 li {
     margin: 1vmin auto;
 }
+
+.anchoronly {
+    color: #000
+}
